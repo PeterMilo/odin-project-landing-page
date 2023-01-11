@@ -1,0 +1,46 @@
+#hero-img {
+    max-height: 250px;
+}
+
+.box-images {
+    max-height: 150px;
+}
+
+ul {
+    display: flex;
+    gap: 2em;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-section {
+    display: flex;
+}
+
+.information-boxes {
+    display: flex;
+}
+
+.testimonial {
+    display: flex;
+}
+
+.call-to-action {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
