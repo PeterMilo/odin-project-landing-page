@@ -1,9 +1,27 @@
 #hero-img {
-    max-height: 250px;
+    max-height: 100%;
+    width: 500px;
 }
 
 .box-images {
     max-height: 150px;
+ 
+}
+
+
+html {
+   /* width:75%;
+    margin: 0 auto;*/
+  
+}
+
+body {
+    margin:0;
+}
+
+p, a, h1,h2,h3 {
+    font-family: Tahoma, Helvetica, Arial, sans-serif;
+
 }
 
 ul {
@@ -21,12 +39,37 @@ a {
 }
 
 .header {
+    margin:0px;
     display: flex;
+    justify-content: space-between;
+    background-color:#1f2937;
+    color:white;
+}
+
+.header a {
+    color:white;
+}
+
+.header-flex, .hero-flex {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.header-flex {
     justify-content: space-between;
 }
 
 .hero-section {
     display: flex;
+    background-color: #1f2937;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+}
+
+.hero-flex {
+    justify-content: space-between;
 }
 
 .information-boxes {
