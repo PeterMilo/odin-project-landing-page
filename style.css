@@ -3,6 +3,9 @@
     width: 500px;
 }
 
+/*See here for more on changing image: https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit */
+
+
 .box-images {
     max-height: 150px;
  
